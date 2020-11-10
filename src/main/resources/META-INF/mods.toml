@@ -1,0 +1,28 @@
+
+modLoader="javafml"
+loaderVersion="[30,)"
+issueTrackerURL="http://my.issue.tracker/"
+license = "while you were stealing code, i was studying the blade"
+
+[[mods]]
+modId="ion"
+version="${file.jarVersion}"
+displayName="Ion"
+authors="NanoHeart"
+description='''
+Ion is a tech mod focusing on filling the gaps of mods in the past, inspired by Gregtech, Thermal Expansion, and UE mods with some magic influences. This mod mostly acts as a toolbox with minor progression to complement minecraft's sandbox gameplay with a twist of no one block solutions.
+'''
+[[dependencies.ion]]
+modId="forge"
+mandatory=true
+versionRange="[34,)"
+ordering="NONE"
+side="BOTH"
+
+
+[[dependencies.ion]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.16.3,)"
+ordering="NONE"
+side="BOTH"
